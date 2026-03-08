@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Color Switcher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<style>
+    body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:50px;
+    
+}
+
+.color{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    border-radius:12px;
+    border: 2px dotted black;
+}
+
+.red{ background:red; }
+.purple{ background:purple; }
+.blue{ background:blue; }
+.green{ background:green; }
+.yellow{ background:white; }
+</style>
+<h1>Click a Color</h1>
+
+<div class="container">
+    <div class="color red" id="red"></div>
+    <div class="color purple" id="purple"></div>
+    <div class="color blue" id="blue"></div>
+    <div class="color green" id="green"></div>
+    <div class="color white" id="white"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
